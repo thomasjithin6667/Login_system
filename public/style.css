@@ -1,0 +1,117 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+p{
+    font-size: 13px;
+}
+h6{
+    font-size: 14px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px 0px 15px 0px ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.314);
+}
+
+.navmenu{
+    display: flex;
+    gap: 30px;
+}
+.login{
+    width: 340px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.285);
+    height: 530px;
+}
+.hero1{
+    padding: 20px;
+    
+}
+.hero1 p{
+    color: rgb(0, 162, 100);
+    font-size:48px ;
+    font-weight: 600;
+}
+.hero2{
+    display: flex;
+    gap: 90px;
+    height: 345PX;
+}
+.hero2 img{
+    width: 400px;
+    
+
+}
+.disclaimer p{
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+#submitbtn{
+    border: 1px solid black;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 8px 0px 8px 0px;
+}
+#submitbtn:hover{
+    background-color: rgb(0, 162, 100);
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.icons-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    
+}
+.icons-section p{
+    font-size: 15px;
+    
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+.section2-title p{
+ font-size: 20px;
+ font-weight: 900;
+}
+
+.section2-title2 p{
+    width: 600px;
+  text-align: center;
+  font-size: 16px;
+}
